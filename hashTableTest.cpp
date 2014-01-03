@@ -1,7 +1,14 @@
 #include "hashTable.h"
+#include <iostream>
 
 int main() {
-  h = hashTable(10);
-  
+  HashTable h = HashTable(10);
+  h.insert("marisa");
+  if (h.find("marisa")) {
+    cout << "true" << endl;
+  }
+  else {
+    cout << "false" << endl;
+  }
   return 0;
 }
