@@ -1,9 +1,3 @@
-//Marisa Reddy
-//mpr2zp
-//21 October 2013
-//Filename: hashTable.cpp
-
-
 #include "hashtable.h"
 #include <iostream>
 #include <fstream>
