@@ -14,22 +14,17 @@ int fileSize( string filename) {
         }
       file.close();
     }
-  return count;
-}
-
-void checkWhile() {
-  bool go = true;
-  while (go == true) {
-    cout << "enter word to check: " << endl:
-      string m;
-      
+  else {
+    cout << "could not open file" << endl;
   }
+  return count;
+  
 }
 
 
 
 int main( int argc, char* argv[] ) {
-  if (argc < 2) {
+  if (argc < 3) {
     cout << "filename expected" << endl;
     return 0;
   }
@@ -44,7 +39,7 @@ int main( int argc, char* argv[] ) {
   else {
     cout << "false" << endl;
     } */
-  bool go = true;
+  /* bool go = true;
   while (go == true) {
     cout << "enter word to check: " << endl;
     string m;
@@ -56,7 +51,12 @@ int main( int argc, char* argv[] ) {
       cout << m " is not in the hashTable." << endl;
     }
     
+    }*/
+
+  if (  h.find("10th") ) {
+    cout << "true" << endl;
   }
+
 
 
   return 0;
