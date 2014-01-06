@@ -43,7 +43,7 @@ int main( int argc, char* argv[] ) {
     cout << target + " is in file." << endl;
   }
   else {
-    cout << "could not find " + target + " in hashTable" << endl;
+    cout << "could not find " + target + " in file." << endl;
   }
   return 0;
 }

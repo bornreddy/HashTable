@@ -31,8 +31,6 @@ int HashTable::hash( string s ) {
   return abs((int) total % size);
 }
 
-
-
 void HashTable::insert( string s ) {
   int h = hash(s);
   (*table)[h].push_back(s);
