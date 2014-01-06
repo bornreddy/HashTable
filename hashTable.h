@@ -1,9 +1,3 @@
-//Marisa Reddy
-//mpr2zp
-//21 October 2013
-//Filename: hashTable.h
-
-
 #ifndef HASHTABLE_H
 #define HASHTABLE_H
 
