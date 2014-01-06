@@ -38,21 +38,6 @@ void HashTable::insert( string s ) {
   (*table)[h].push_back(s);
 }
 
-int HashTable::fileSize( string filename) {
-  int count = 0;
-  string line;
-  ifstream file (filename.c_str());
-  if (file.is_open())
-    {
-      while ( getline (file,line) )
-	{
-	  count++;
-	}
-      file.close();
-    }
-  return count;
-}
-
 void HashTable::insertFile( string filename ) {
   string line;
   ifstream file (filename.c_str());
