@@ -36,7 +36,7 @@ int HashTable::hash( string s ) {
 }
 
 /* inserts word into correct the vector located at the
- hash of the string */
+   hash of the string */
 void HashTable::insert( string s ) {
   int h = hash(s);
   (*table)[h].push_back(s);
@@ -51,7 +51,7 @@ void HashTable::insertFile( string filename ) {
     {
       while ( getline (file,line) )
         {
-	  this->insert(line);
+          this->insert(line);
         }
       file.close();
     }
@@ -115,7 +115,3 @@ int HashTable::getNextPrimeNumber (int num) {
   }
   return nam;
 }
-
-
-
-
